@@ -42,3 +42,27 @@ console.log(typeof bigNumber);
 console.log(typeof myFun);
 console.log(typeof studentDetails);
 console.log(typeof cars);
+
+// ***************************************************************
+
+// Stake (Primitive) , Heap (Non-Primitive)
+
+let myName = "MeetKukadiya"
+
+let anotherName = myName
+anotherName = "changedName"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    emailId : "user@gmail.com",
+    upi : "hello@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.emailId = "admin@gmail.com"
+
+console.log(userOne.emailId);
+console.log(userTwo.emailId);
