@@ -34,3 +34,34 @@ function loginuserMessage(username) {
 
 let message = loginuserMessage("Meet")
 console.log(message);
+
+function calculateCartPrice(...price){
+    return price
+}
+
+console.log(calculateCartPrice(100, 240, 310, 143));
+
+
+const user ={
+    username : "MeetKukadiya",
+    age: 21,
+}
+
+function handleObject(anyobject){
+    console.log(`Hello, My self ${anyobject.username} and I'm ${anyobject.age} year old.`);
+}
+
+// handleObject(user)
+
+handleObject({
+    username : "Test",
+    age : 31,
+})
+
+const myArray = [234, 422, 64, 125]
+
+function getElementFromArray(getArray){
+    return getArray[2]
+}
+
+console.log(getElementFromArray(myArray))
