@@ -36,3 +36,20 @@ console.log(userDetails.fullname);
 console.log(userDetails.fullname.userFullname);
 console.log(userDetails.fullname.userFullname.firstName);
 
+
+course = {
+    courseid : "test@gmail.com",
+    duration : "3 Months",
+    price : "999",
+}
+
+const {courseid : cid} = course
+
+console.log(cid);
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "mrk" )
+
