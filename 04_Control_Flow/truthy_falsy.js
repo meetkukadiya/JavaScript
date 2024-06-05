@@ -42,4 +42,4 @@ console.log(val1);
 
 const price = 100
 
-price <= 50 ? console.log("less than 50") : console.log("More than 50");
+price <= 50 ? console.log("less than 50") : console.log("More than 50"); 
