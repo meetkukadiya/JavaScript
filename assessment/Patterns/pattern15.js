@@ -1,6 +1,6 @@
 // Floyd's Triangle
 
-let num = 4;
+let num = 7;
 let k = 1;
 
 for (let i = 0; i < num; i++) {
