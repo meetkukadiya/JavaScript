@@ -6,9 +6,10 @@ for (let i = 0; i <= num; i++) {
 
     let newL = "";
     
-    for (let j = 0; j < num - i +1; j++) {
+    for (let j = 0; j < num - i + 1; j++) {
        newL += " ";
     }
+
     if(i !== 0 &&  i !== num){
     for (let k = 0; k < 1; k++) {
         newL += "* ";
